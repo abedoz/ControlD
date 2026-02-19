@@ -8,6 +8,7 @@ import androidx.compose.ui.unit.dp
 import com.controld.app.data.model.Device
 import com.controld.app.data.model.Profile
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DeviceCreateDialog(
     profiles: List<Profile>,
@@ -85,6 +86,7 @@ fun DeviceCreateDialog(
     )
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DeviceEditDialog(
     device: Device,

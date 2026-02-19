@@ -207,6 +207,7 @@ fun ProfileCard(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ProfileCreateDialog(
     existingProfiles: List<Profile>,
