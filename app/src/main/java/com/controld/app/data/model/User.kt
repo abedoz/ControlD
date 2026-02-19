@@ -5,7 +5,7 @@ import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
 data class UserBody(
-    val user: User? = null
+    @Json(name = "users") val user: User? = null
 )
 
 @JsonClass(generateAdapter = true)
